@@ -1,0 +1,137 @@
+﻿<DataSourceView xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="7f4c4fab-f42e-4346-bb08-1ebc5afb3153" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Tuyen Sinh</ID>
+  <Name>Tuyen Sinh</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:CurrentLayout</Name>
+      <Value>_ALL_TABLES_</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:SchemaRestriction</Name>
+      <Value></Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:RetrieveRelationships</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:Layouts</Name>
+      <Value>
+        <Layouts xmlns="">
+          <Diagram>
+            <Name>_ALL_TABLES_</Name>
+            <DiagramLayout />
+            <ShowRelationshipNames>False</ShowRelationshipNames>
+            <UseDiagramDefaultLayout>True</UseDiagramDefaultLayout>
+            <DiagramViewPortLeft>0</DiagramViewPortLeft>
+            <DiagramViewPortTop>0</DiagramViewPortTop>
+            <DiagramBoundingLeft>0</DiagramBoundingLeft>
+            <DiagramBoundingTop>0</DiagramBoundingTop>
+            <DiagramZoom>100</DiagramZoom>
+          </Diagram>
+        </Layouts>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <DataSourceID>Tuyen Sinh</DataSourceID>
+  <Schema>
+    <xs:schema id="Tuyen_x0020_Sinh" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+      <xs:element name="Tuyen_x0020_Sinh" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:design-time-name="f803708e-027b-4e95-be11-de2c02e6232a">
+        <xs:complexType>
+          <xs:choice minOccurs="0" maxOccurs="unbounded">
+            <xs:element name="dbo_THONGTIN" msprop:FriendlyName="THONGTIN" msprop:DbSchemaName="dbo" msprop:DbTableName="THONGTIN" msprop:design-time-name="1315340c-6279-4bee-9dc1-b614be3150c0" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="MAHS" msprop:FriendlyName="MAHS" msprop:DbColumnName="MAHS" msprop:design-time-name="db897456-9372-4724-ac5d-481672155307">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="HOTEN" msprop:FriendlyName="HOTEN" msprop:DbColumnName="HOTEN" msprop:design-time-name="ab63f053-e9c0-4735-8234-e2775646ec63" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="NGAYSINH" msprop:FriendlyName="NGAYSINH" msprop:DbColumnName="NGAYSINH" msprop:design-time-name="1a73c25c-ef80-4f22-ac3a-f700fcfb71aa" type="xs:dateTime" minOccurs="0" />
+                  <xs:element name="GIOITINH" msprop:FriendlyName="GIOITINH" msprop:DbColumnName="GIOITINH" msprop:design-time-name="063dc3c8-03b2-4ea8-a5d1-8f9effbbe3ad" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="TENTRUONG" msprop:FriendlyName="TENTRUONG" msprop:DbColumnName="TENTRUONG" msprop:design-time-name="0bf95146-ca37-4883-91f1-596a247b5ee3" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="500" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="MANGANH" msprop:FriendlyName="MANGANH" msprop:DbColumnName="MANGANH" msprop:design-time-name="4d15c2fb-11a1-43eb-9737-0e978ba2cc96" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="TENNGANH" msprop:FriendlyName="TENNGANH" msprop:DbColumnName="TENNGANH" msprop:design-time-name="52a31bf8-d2eb-42b3-940e-28552d962cf2" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="500" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="TBTH" msprop:FriendlyName="TBTH" msprop:DbColumnName="TBTH" msprop:design-time-name="9eb53304-9f26-4b1d-a693-76b2e4f691e0" type="xs:double" minOccurs="0" />
+                  <xs:element name="TBTHPT" msprop:FriendlyName="TBTHPT" msprop:DbColumnName="TBTHPT" msprop:design-time-name="92efbaa9-b21b-40f1-9a48-a152bf07b185" type="xs:double" minOccurs="0" />
+                  <xs:element name="NHOMSOTHICH" msprop:FriendlyName="NHOMSOTHICH" msprop:DbColumnName="NHOMSOTHICH" msprop:design-time-name="6d99502c-3238-441f-8fc7-7ac27c20b03a" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="500" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="DACDIEMSOTHICH" msprop:FriendlyName="DACDIEMSOTHICH" msprop:DbColumnName="DACDIEMSOTHICH" msprop:design-time-name="828fb36c-0020-4dd9-821a-e59b30c2ae2e" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="500" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="KETQUA" msprop:FriendlyName="KETQUA" msprop:DbColumnName="KETQUA" msprop:design-time-name="e74c55e7-df6b-46c6-a351-b51ab2a7d6c7" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="MATKHAU" msprop:FriendlyName="MATKHAU" msprop:DbColumnName="MATKHAU" msprop:design-time-name="0379edf5-1892-413f-9774-7524efdd49c0" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+          </xs:choice>
+        </xs:complexType>
+        <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_THONGTIN" />
+          <xs:field xpath="MAHS" />
+        </xs:unique>
+      </xs:element>
+    </xs:schema>
+    <diffgr:diffgram xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1" />
+  </Schema>
+</DataSourceView>

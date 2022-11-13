@@ -1,0 +1,12 @@
+D:\Android\New folder\NewNEW\TuVanChonNganh\bin\TuVanChonNganh.dll
+D:\Android\New folder\NewNEW\TuVanChonNganh\bin\TuVanChonNganh.pdb
+D:\Android\New folder\NewNEW\TuVanChonNganh\obj\Debug\ResolveAssemblyReference.cache
+D:\Android\New folder\NewNEW\TuVanChonNganh\obj\Debug\TuVanChonNganh.dll
+D:\Android\New folder\NewNEW\TuVanChonNganh\obj\Debug\TuVanChonNganh.pdb
+C:\Code\ren\NewNEW\TuVanChonNganh\bin\TuVanChonNganh.dll.config
+C:\Code\ren\NewNEW\TuVanChonNganh\bin\TuVanChonNganh.dll
+C:\Code\ren\NewNEW\TuVanChonNganh\bin\TuVanChonNganh.pdb
+C:\Code\ren\NewNEW\TuVanChonNganh\obj\Debug\TuVanChonNganh.csproj.AssemblyReference.cache
+C:\Code\ren\NewNEW\TuVanChonNganh\obj\Debug\TuVanChonNganh.csproj.CoreCompileInputs.cache
+C:\Code\ren\NewNEW\TuVanChonNganh\obj\Debug\TuVanChonNganh.dll
+C:\Code\ren\NewNEW\TuVanChonNganh\obj\Debug\TuVanChonNganh.pdb

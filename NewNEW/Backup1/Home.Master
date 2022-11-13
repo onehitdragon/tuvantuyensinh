@@ -1,0 +1,43 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Home.master.cs" Inherits="TuVanChonNganh.Home" %><!DOCTYPE html>
+<html lang="en">
+<head id="Head1" runat="server">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /<> - TƯ VẤN TUYỂN SINH ĐẠI HỌC CÔNG ĐOÀN </title>
+    <asp:PlaceHolder runat="server">
+    </asp:PlaceHolder>
+</head>
+<body>
+    <form id="Form1" runat="server">
+        <div class="navbar navbar-inverse navbar-fixed-top" >
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a id="A1" class="navbar-brand" runat="server" href="~/">TƯ VẤN CHỌN NGÀNH CHO HỌC SINH</a>
+                </div>
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                        <li><a id="A2" runat="server" href="~/">Trang chủ</a></li>
+                        <li><a id="A3" runat="server" href="~/About">Tác giả</a></li>
+                       
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="container body-content">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server">
+            </asp:ContentPlaceHolder>
+            <hr />
+            <footer>
+                <p>&nbsp;</p>
+                <p>- Tư vấn chọn ngành</p>
+            </footer>
+        </div>
+        <asp:Login ID="Login1" runat="server" Height="116px" Width="717px">
+        </asp:Login>
+    </form>
+</body>
+</html>

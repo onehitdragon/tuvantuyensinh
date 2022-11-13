@@ -1,0 +1,243 @@
+﻿<MiningStructure xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="37027275-55db-4a34-874e-84d7d05b723c" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>THONGTIN</ID>
+  <Name>THONGTIN</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:CaseTableName</Name>
+      <Value>dbo_THONGTIN</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-8512" scrolltop="-4392" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="20849" y="13785" backcolor="15334399" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="THONGTIN" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="3784" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="00080000c80e000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_THONGTIN" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-8512</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-4392</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="f83d8844-e1d8-4883-a985-9b0b570887ac">
+    <DataSourceViewID>Tuyen Sinh</DataSourceViewID>
+  </Source>
+  <Columns>
+    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="97f9ee42-3afc-4245-af6a-0a7ae88cad8c">
+      <ID>DACDIEMSOTHICH</ID>
+      <Name>DACDIEMSOTHICH</Name>
+      <Type>Text</Type>
+      <Content>Discrete</Content>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="fde3d7a1-3096-4174-b1b2-a47a250fb2a6">
+          <DataType>WChar</DataType>
+          <DataSize>500</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="dafe7ddf-7035-4b4c-bd88-2ce02218421b">
+            <TableID>dbo_THONGTIN</TableID>
+            <ColumnID>DACDIEMSOTHICH</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+    </Column>
+    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="3b4f148d-93c3-4a87-b987-80d5c7803e4b">
+      <ID>KETQUA</ID>
+      <Name>KETQUA</Name>
+      <Type>Text</Type>
+      <Content>Discrete</Content>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="efbf9726-7413-4bba-b6f6-e06558b78d0d">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="a2ca6b5b-d021-4a81-98cd-7481ab953ea3">
+            <TableID>dbo_THONGTIN</TableID>
+            <ColumnID>KETQUA</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+    </Column>
+    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="9c2cab7b-545e-4f9a-b424-c95dadb55977">
+      <ID>MAHS</ID>
+      <Name>MAHS</Name>
+      <IsKey>true</IsKey>
+      <Type>Text</Type>
+      <Content>Key</Content>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="f0f05ae6-7882-4cf6-bb62-03a65ba8dc1c">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="3462c35c-6d29-498a-8b29-82686b9233ca">
+            <TableID>dbo_THONGTIN</TableID>
+            <ColumnID>MAHS</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+    </Column>
+    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="29d8d24a-ead0-4226-a929-25e4ad45fefd">
+      <ID>NHOMSOTHICH</ID>
+      <Name>NHOMSOTHICH</Name>
+      <Type>Text</Type>
+      <Content>Discrete</Content>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="a04fd3e8-1ad9-4c32-9c01-434ef88bd00f">
+          <DataType>WChar</DataType>
+          <DataSize>500</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="80ea699d-bbe1-406b-bb39-8561ddc60b5d">
+            <TableID>dbo_THONGTIN</TableID>
+            <ColumnID>NHOMSOTHICH</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+    </Column>
+    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="118d16dd-1f40-42cc-8221-cdf661c173dc">
+      <ID>TBTH</ID>
+      <Name>TBTH</Name>
+      <Type>Double</Type>
+      <Content>Continuous</Content>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="e368dd8a-db22-472b-b004-b6cf6accdca5">
+          <DataType>Double</DataType>
+          <DataSize>-1</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="020eee81-ba1c-433f-ad2d-610ec06e7422">
+            <TableID>dbo_THONGTIN</TableID>
+            <ColumnID>TBTH</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+    </Column>
+    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="a0ba68d1-7812-4a5a-843f-38d6ef1461d5">
+      <ID>TBTHPT</ID>
+      <Name>TBTHPT</Name>
+      <Type>Double</Type>
+      <Content>Continuous</Content>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="24ca4f5f-4591-43f0-9597-c6e2b7092115">
+          <DataType>Double</DataType>
+          <DataSize>-1</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="8c48b1a3-0fcb-4b44-bdc8-b24d87a09597">
+            <TableID>dbo_THONGTIN</TableID>
+            <ColumnID>TBTHPT</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+    </Column>
+  </Columns>
+  <MiningModels>
+    <MiningModel dwd:design-time-name="afcf11e4-7cbe-4574-ae0a-379feca8cdd2">
+      <ID>THONGTIN</ID>
+      <Name>THONGTIN</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Algorithm>Microsoft_Decision_Trees</Algorithm>
+      <AlgorithmParameters>
+        <AlgorithmParameter>
+          <Name>MINIMUM_SUPPORT</Name>
+          <Value xsi:type="xsd:double">1</Value>
+        </AlgorithmParameter>
+        <AlgorithmParameter>
+          <Name>SCORE_METHOD</Name>
+          <Value xsi:type="xsd:int">1</Value>
+        </AlgorithmParameter>
+        <AlgorithmParameter>
+          <Name>SPLIT_METHOD</Name>
+          <Value xsi:type="xsd:int">2</Value>
+        </AlgorithmParameter>
+      </AlgorithmParameters>
+      <Columns>
+        <Column dwd:design-time-name="8cb1c080-4a34-4be6-b637-72ced495f1c0">
+          <ID>DACDIEMSOTHICH</ID>
+          <Name>DACDIEMSOTHICH</Name>
+          <SourceColumnID>DACDIEMSOTHICH</SourceColumnID>
+        </Column>
+        <Column dwd:design-time-name="65ce8700-ee6e-4f36-9dbb-0a6854f94adc">
+          <ID>KETQUA</ID>
+          <Name>KETQUA</Name>
+          <SourceColumnID>KETQUA</SourceColumnID>
+          <Usage>PredictOnly</Usage>
+        </Column>
+        <Column dwd:design-time-name="f53754c9-6df7-468d-8988-0b3db9a4e9bf">
+          <ID>MAHS</ID>
+          <Name>MAHS</Name>
+          <SourceColumnID>MAHS</SourceColumnID>
+          <Usage>Key</Usage>
+        </Column>
+        <Column dwd:design-time-name="1eb94368-8b6d-4b12-875a-6e7d0818e29f">
+          <ID>NHOMSOTHICH</ID>
+          <Name>NHOMSOTHICH</Name>
+          <SourceColumnID>NHOMSOTHICH</SourceColumnID>
+        </Column>
+        <Column dwd:design-time-name="30d2c565-b673-4c1a-9f98-553e9e302d27">
+          <ID>TBTH</ID>
+          <Name>TBTH</Name>
+          <SourceColumnID>TBTH</SourceColumnID>
+          <ModelingFlags>
+            <ModelingFlag>REGRESSOR</ModelingFlag>
+          </ModelingFlags>
+        </Column>
+        <Column dwd:design-time-name="4d34a834-4edb-4e89-9c2c-af29c4317eaf">
+          <ID>TBTHPT</ID>
+          <Name>TBTHPT</Name>
+          <SourceColumnID>TBTHPT</SourceColumnID>
+          <ModelingFlags>
+            <ModelingFlag>REGRESSOR</ModelingFlag>
+          </ModelingFlags>
+        </Column>
+      </Columns>
+    </MiningModel>
+  </MiningModels>
+  <ddl100_100:HoldoutMaxPercent>30</ddl100_100:HoldoutMaxPercent>
+</MiningStructure>
